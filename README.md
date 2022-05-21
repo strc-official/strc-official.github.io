@@ -1,2 +1,1 @@
-# strc-official.github.io
-Workiverse 2022
+# Workiverse 2022
