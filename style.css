@@ -39,7 +39,7 @@ body .header-nav {
 }
 
 
-ul {
+.head {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -49,11 +49,11 @@ ul {
 	background: linear-gradient(0.15turn, rgb(248, 181, 181), rgba(255, 230, 237), rgb(220, 235, 248));
 } 
 
-.logo{
+.head .logo{
 	padding-left: 1%;
 }
 
-li {
+.head li {
 	padding-top: 10px;
 	list-style: none;
 	margin-right: 20px;
@@ -62,12 +62,12 @@ li {
 	font-family:'Courier New', Courier, monospace;
 }
 
-li a {
+.head li a {
 	text-decoration: none;
 	color: rgb(134, 134, 134);
 }
 
-li a::after{
+.head li a::after{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -81,7 +81,7 @@ li a::after{
 	transition: transform 0.25s ease-out;
 }
 
-li a:hover{
+.head li a:hover{
 	text-decoration: underline;
 	text-decoration-color: #ff0072;
 	text-decoration-style:solid;
@@ -90,13 +90,13 @@ li a:hover{
   	transform-origin: bottom left;
 }
 
-li a:hover::after{
+.head li a:hover::after{
 	transform: scaleX(1);
   	transform-origin: bottom left;
 }
 
-section {
-	height: 100vh;
+.head section {
+	height: 100%;
 	display: grid;
 	place-items: center;
 	font-size: 16px;
@@ -177,8 +177,9 @@ span::after {
 /*======x======navbar======x======*/
 
 /*==========header image==========*/
-.header-img{
+.head-img{
 	width: 98.7vw;
 	overflow: hidden;
 }
 /*=====x=====header image======x=======*/
+
