@@ -13,7 +13,7 @@ html{
     padding: 0;
 	height: 100%;
 	width: 100%;
-	background-color: var(--second);
+	background-image: url('assets/background.png');
 }
 
 body{
@@ -36,6 +36,10 @@ body .header-nav {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 3px;
+	z-index: 1;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	overflow: hidden;
 }
 
 
@@ -46,7 +50,8 @@ body .header-nav {
 	box-sizing: border-box;
 	border-radius: 10px;
 	padding: 10px;
-	background: linear-gradient(0.15turn, rgb(248, 181, 181), rgba(255, 230, 237), rgb(220, 235, 248));
+	background: linear-gradient(0.15turn, rgb(248, 181, 181,0.9), rgba(255, 230, 237,0.9), rgb(220, 235, 248,0.9));
+	overflow: hidden;
 } 
 
 .head .logo{
@@ -176,10 +181,32 @@ span::after {
 
 /*======x======navbar======x======*/
 
-/*==========header image==========*/
-.head-img{
-	width: 98.7vw;
+/*==========header video==========*/
+.head-vid{
+	padding-top: 10%;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 95vw;
 	overflow: hidden;
+	z-index: 0;
 }
-/*=====x=====header image=====x=====*/
+
+.overlay {
+    position:absolute;
+	padding: 15px;
+    top:50%;
+    left:30vw;
+    z-index:0;
+	color: var(--glow2);
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bolder;
+}
+.overlay:hover{
+	background:rgb(35, 25, 78);
+	color: var(--glow1);
+	border-radius: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+/*=====x=====header video=====x=====*/
 
