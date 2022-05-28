@@ -1,16 +1,19 @@
 @import url('../css/fonts.css');
 
+/*---Global Classes---*/
 /*========Colors========*/
 :root{
 --glow1:#00ffff;
 --glow2:#ff0072;
 --second: #1b2431;
+--color3: #cf1b51;
 }
 /*=======================*/
 
 /*========Fonts==========*/
 
 /*=======================*/
+/*---Global Classes---*/
 
 
 html{
@@ -29,9 +32,15 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .seperator{
 	height: 600px;
 }
+
+::selection{
+	background-color: #cf1b51;
+}
+
 
 /*============--navbar============-*/
 
@@ -215,16 +224,16 @@ span::after {
 	font-style: italic;
 	font-family:monospace;
 	border-radius: 5%;
-	border: 2px solid transparent;
+	border: 1px solid transparent;
 	text-decoration: none;
 	color: #000;
-	background: rgb(255, 197, 197);
+	background: #ff0072;
 }
 
 .head_learnmore:hover{
 	cursor: pointer;
 	background: black;
-	color: rgb(255, 197, 197);
+	color: #ff0072;
 	border-style: 10px;
 	border-color: #ff0072;
 	transition: 0.5s;
@@ -238,9 +247,9 @@ span::after {
 	font-family:monospace;
 	font-style: italic;
 	border-radius: 5%;
-	border: 2px solid transparent;
+	border: 1px solid #ff0072;
 	text-decoration: none;
-	color: rgb(255, 197, 197);
+	color: #ff0072;
 	background: #000;
 }
 
@@ -249,9 +258,91 @@ span::after {
 	background: #ff0072;
 	color: black;
 	border-style: 10px;
-	border-color: #000;
 	transition: 0.5s;
 }
 
 /*=====x=====header video=====x=====*/
 
+
+/*==============about===============*/
+.about{
+	height: auto;
+	display: grid;
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.about-content{
+	display:inline;
+	position: absolute;
+	margin-right: 50px;
+	margin-top: 4%;
+	margin-left: 40%;
+	justify-self: right;
+	align-self: right;
+}
+
+.timer{
+	width: 300px;
+	background: url('./assets/bg2.png');
+	background-size: cover;
+	height: 300px;
+	margin: 8%;
+	margin-left: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-radius: 50%;
+	font-size: 1.75rem;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.timer .glow2{
+	transform: translate(-16.5%, -16.5%);
+	position: absolute;
+	content: "";
+	border-radius: 50%;
+	z-index: -2;
+	height: 110%;
+	width: 110%;
+	opacity: 0.5;
+	background-color: var(--glow2);
+	filter: blur(60px);
+}
+
+.timer .glow1{
+	transform: translate(16.5%, 16.5%);
+	position: absolute;
+	content: "";
+	border-radius: 50%;
+	z-index: -1;
+	height: 110%;
+	width: 110%;
+	opacity: 0.5;
+	background-color: var(--glow1);
+	filter: blur(60px);
+}
+
+/*======xx======about======xx=======*/
+
+/*==========Sep 1==========*/
+.sep-1{
+	margin-right: 0;
+	float: right;
+}
+/*====xx====Sep 1====xx====*/
+
+/*==========Why join=========*/
+.why-join{
+	margin-top: 10%;
+	margin-left: 10%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+}
+/*====xx====Why join====xx====*/
