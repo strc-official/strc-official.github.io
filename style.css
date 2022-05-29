@@ -219,10 +219,10 @@ span::after {
 	padding: 10px;
 	margin-left: 50px;
 	margin-top: 40px;
-	font-size: 21px;
-	font-weight: bolder;
+	font-size: 19px;
 	font-style: italic;
-	font-family:monospace;
+	font-weight: bolder;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	border-radius: 5%;
 	border: 1px solid transparent;
 	text-decoration: none;
@@ -242,9 +242,9 @@ span::after {
 .head_joinnow{
 	padding: 10px;
 	margin-left: 30px;
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: bolder;
-	font-family:monospace;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-style: italic;
 	border-radius: 5%;
 	border: 1px solid #ff0072;
