@@ -144,14 +144,33 @@ body .header-nav {
 .btn-register:hover{
 	border: 2px solid #cf1b51;
 	background: #fff;;
-	color: #000;
+	color: rgb(39, 5, 43);
 	box-shadow: 2px 5px 15px rgba(145, 92, 182, .4);
 }
 
 /*======x======navbar======x======*/
 
 
-/*============Timer============*/
+/*==============about===============*/
+.about{
+	height: auto;
+	display: grid;
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.about-content{
+	display:inline;
+	position: absolute;
+	margin-right: 50px;
+	margin-top: 4%;
+	margin-left: 40%;
+	justify-self: right;
+	align-self: right;
+}
+
 .timer{
 	width: 300px;
 	background: url('./assets/bg2.png');
@@ -195,3 +214,5 @@ body .header-nav {
 	background-color: var(--glow1);
 	filter: blur(60px);
 }
+
+/*======xx======about======xx=======*/
