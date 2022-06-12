@@ -160,8 +160,6 @@ body .header-nav {
 	display: grid;
 	color: var(--font);
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	letter-spacing: 1px;
-	font-size: 14px;
 	margin-top: 3%;
 }
 
@@ -169,10 +167,11 @@ body .header-nav {
 	display:inline;
 	position: absolute;
 	margin-right: 50px;
-	margin-top: 4%;
+	margin-top: 2%;
 	margin-left: 40%;
 	justify-self: right;
 	align-self: right;
+	font-size: 15px;
 }
 
 .timer{
