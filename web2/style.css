@@ -8,6 +8,7 @@
 --glow2:#ff0072;
 --second: #1b2431;
 --color3: #cf1b51;
+--font: rgb(230, 230, 230);
 }
 /*=======================*/
 
@@ -150,15 +151,18 @@ body .header-nav {
 
 /*======x======navbar======x======*/
 
+/*=============tagline============*/
+/**/
 
 /*==============about===============*/
 .about{
 	height: auto;
 	display: grid;
-	color: white;
+	color: var(--font);
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	letter-spacing: 1px;
 	font-size: 14px;
+	margin-top: 3%;
 }
 
 .about-content{
@@ -184,8 +188,8 @@ body .header-nav {
 	position: relative;
 	border-radius: 50%;
 	font-size: 1.75rem;
-	color: #fff;
-	font-family: Arial, Helvetica, sans-serif;
+	color: var(--font);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: bold;
 }
 
