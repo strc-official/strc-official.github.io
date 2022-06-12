@@ -149,3 +149,49 @@ body .header-nav {
 }
 
 /*======x======navbar======x======*/
+
+
+/*============Timer============*/
+.timer{
+	width: 300px;
+	background: url('./assets/bg2.png');
+	background-size: cover;
+	height: 300px;
+	margin: 8%;
+	margin-left: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-radius: 50%;
+	font-size: 1.75rem;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.timer .glow2{
+	transform: translate(-16.5%, -16.5%);
+	position: absolute;
+	content: "";
+	border-radius: 50%;
+	z-index: -2;
+	height: 110%;
+	width: 110%;
+	opacity: 0.5;
+	background-color: var(--glow2);
+	filter: blur(60px);
+}
+
+.timer .glow1{
+	transform: translate(16.5%, 16.5%);
+	position: absolute;
+	content: "";
+	border-radius: 50%;
+	z-index: -1;
+	height: 110%;
+	width: 110%;
+	opacity: 0.5;
+	background-color: var(--glow1);
+	filter: blur(60px);
+}
