@@ -151,8 +151,17 @@ body .header-nav {
 
 /*======x======navbar======x======*/
 
+
 /*=============tagline============*/
-/**/
+/*styling for tagline done in html file*/
+/*=====xx======tagline=====xx=====*/
+
+.line{
+	width: 70%;
+	margin-top: 5%;
+	border: 1px solid rgb(189, 189, 189);
+	box-shadow: 2px 3px 15px rgba(145, 233, 255, 0.3);
+}
 
 /*==============about===============*/
 .about{
@@ -160,7 +169,7 @@ body .header-nav {
 	display: grid;
 	color: var(--font);
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	margin-top: 3%;
+	margin-top: 1%;
 }
 
 .about-content{
@@ -171,7 +180,6 @@ body .header-nav {
 	margin-left: 40%;
 	justify-self: right;
 	align-self: right;
-	font-size: 15px;
 }
 
 .timer{
@@ -219,3 +227,36 @@ body .header-nav {
 }
 
 /*======xx======about======xx=======*/
+
+
+/*=============Workshop themes============*/
+.themes-content{
+	height: auto;
+	color: var(--font);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 3%;
+	font-size: 15px;
+}
+/*=====xx======Workshop themes=====xx=======*/
+
+
+/*=============Hackathon============*/
+.hackathon{
+	height: auto;
+	color: var(--font);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 3%;
+	font-size: 15px;
+}
+/*=====xx======Hackathon=====xx=======*/
+
+
+/*=============Event schedule============*/
+.schedule{
+	height: auto;
+	color: var(--font);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 3%;
+	font-size: 15px;
+}
+/*=====xx======Event schedule=====xx=======*/
