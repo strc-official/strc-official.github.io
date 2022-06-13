@@ -64,3 +64,25 @@ var x = setInterval(function() {
     document.getElementById("time").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+//=============================//
+//Event Timeline
+
+// SMOOTH SCROLLING SECTIONS
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+      || location.hostname == this.hostname) {
+
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html,body').animate({
+               scrollTop: target.offset().top
+          }, 1000);
+          return false;
+      }
+  }
+});
+
+//=============xx==============//
