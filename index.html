@@ -110,87 +110,161 @@
 
     <!--Event Schedule on Scroll-->
 
-    <div class="wrapper" >
-
-      <nav class="nav__wrapper" id="navbar-example">
-        <ul class="nav">
-  
-          <li role="presentation" class="active">
-            <a href="#section1">
-              <span class="nav__counter">01</span>
-              <h3 class="nav__title">Intro</h3>
-              <p class="nav__body"><strong>Timeline-style navigation</strong>. Scroll down to see what happens, or click on a number in the nav.</p>
-            </a>
-          </li>
-  
-          <li role="presentation">
-            <a href="#section2">
-              <span class="nav__counter">02</span>
-              <h3 class="nav__title">Section 2 Title</h3>
-              <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
-          </li>
-  
-          <li role="presentation">
-            <a href="#section3">
-              <span class="nav__counter">03</span>
-              <h3 class="nav__title">Section 3 Title</h3>
-              <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
-          </li>
-          
-          <li role="presentation">
-            <a href="#section4">
-              <span class="nav__counter">04</span>
-              <h3 class="nav__title">Section 4 Title</h3>
-              <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
-          </li>
-          
-          <li role="presentation">
-            <a href="#section5">
-              <span class="nav__counter">05</span>
-              <h3 class="nav__title">Section 5 Title</h3>
-              <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
-          </li>
-          
-          <li role="presentation">
-            <a href="#section6">
-              <span class="nav__counter">06</span>
-              <h3 class="nav__title">Section 6 Title</h3>
-              <p class="nav__body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
-          </li>
-  
-        </ul>
-      </nav>
-  
-      <section class="section section1" id="section1">
-        Scroll down or use the nav.
-      </section>
-  
-      <section class="section section2" id="section2">
-        Section 2
-      </section>
-  
-      <section class="section section3" id="section3">
-        Section 3
-      </section>
-  
-      <section class="section section4" id="section4">
-        Section 4
-      </section>
-  
-      <section class="section section5" id="section5">
-        Section 5
-      </section>
-  
-      <section class="section section6" id="section6">
-        Section 6
-      </section>
-  
-  
+    <link href='//fonts.googleapis.com/css?family=Roboto:200,400,600' rel='stylesheet' type='text/css'>
+    <div class="history-tl-container">
+      <ul class="tl">
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            11th Dec 2022<br> 12:00 PM
+          </div>
+          <div class="item-title">Opening Ceremony</div>
+          <div class="item-detail">Get to know your host of the event and details of how the event will go about</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            11th Dec 2022<br> 1:00 PM
+          </div>
+          <div class="item-title">Workshop I : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            12th Dec 2022<br> 12:30 PM
+          </div>
+          <div class="item-title">Workshop II : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            12th Dec 2022<br> 2:30 PM
+          </div>
+          <div class="item-title">Workshop III : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            13th Dec 2022<br> 12:30 PM
+          </div>
+          <div class="item-title">Workshop IV : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            13th Dec 2022<br> 2:30 PM
+          </div>
+          <div class="item-title">Workshop V : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            14th Dec 2022<br> 12:30 PM
+          </div>
+          <div class="item-title">Workshop VI : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            14th Dec 2022<br> 2:30 PM
+          </div>
+          <div class="item-title">Workshop VII : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            15th Dec 2022<br> 12:30 PM
+          </div>
+          <div class="item-title">Workshop VIII : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            15th Dec 2022<br> 2:30 PM
+          </div>
+          <div class="item-title">Workshop IX : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            16th Dec 2022<br> 12:30 PM
+          </div>
+          <div class="item-title">Workshop X : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            16th Dec 2022<br> 2:30 PM
+          </div>
+          <div class="item-title">Workshop XI : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            17th Dec 2022<br> 12:30 PM
+          </div>
+          <div class="item-title">Workshop XII : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li><li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            17th Dec 2022<br> 2:30 PM
+          </div>
+          <div class="item-title">Workshop XIII : (workshop_Name)</div>
+          <div class="item-detail">Workshop description here</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            18th Dec 2022<br> 12:00 PM
+          </div>
+          <div class="item-title">Hackathon Commences</div>
+          <div class="item-detail">Challenges revealed and how competition will go about</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            19th Dec 2022<br> 12:00-3:00 PM
+          </div>
+          <div class="item-title">Mentoring</div>
+          <div class="item-detail">Mentors will mentor you on your project idea</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            19th Dec 2022<br> 12:00-3:00 PM
+          </div>
+          <div class="item-title">Mentoring</div>
+          <div class="item-detail">Mentors will mentor you on your project idea</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            21st Dec 2022<br> 12:00 PM
+          </div>
+          <div class="item-title">Submissions open</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            22nd Dec 2022<br> 7:00 PM
+          </div>
+          <div class="item-title">Throw that goddamn ring in the lava</div>
+          <div class="item-detail">Also, throw that Gollum too</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            1st June 2015<br> 7:00 PM
+          </div>
+          <div class="item-title">Throw that goddamn ring in the lava</div>
+          <div class="item-detail">Also, throw that Gollum too</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            1st June 2015<br> 7:00 PM
+          </div>
+          <div class="item-title">Throw that goddamn ring in the lava</div>
+          <div class="item-detail">Also, throw that Gollum too</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            1st June 2015<br> 7:00 PM
+          </div>
+          <div class="item-title">Throw that goddamn ring in the lava</div>
+          <div class="item-detail">Also, throw that Gollum too</div>
+        </li>
+        <li class="tl-item" ng-repeat="item in retailer_history">
+          <div class="timestamp">
+            1st June 2015<br> 7:00 PM
+          </div>
+          <div class="item-title">Throw that goddamn ring in the lava</div>
+          <div class="item-detail">Also, throw that Gollum too</div>
+        </li>
+    
+      </ul>
+    
     </div>
 
     <!--===========================-->
